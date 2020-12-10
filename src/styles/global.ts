@@ -43,9 +43,15 @@ const GlobalStyles = createGlobalStyle`
       font-size: 62.5%;
     }
 
+    &::before,
+    &::after {
+      box-sizing: inherit;
+    }
+
     body {
       font-family: ${theme.font.family};
       font-size: ${theme.font.sizes.medium};
+      background-color: ${theme.colors.mainBg};
     }
   `}
 
