@@ -1,0 +1,3 @@
+getStaticProps => gerar estático em build time
+getServerSideProps => gerar via ssr a cada request
+getInitialProps => gerar voa ssr a cada request
